@@ -1,0 +1,16 @@
+version: '2.21.0'
+services:
+  jupyterhub:
+    image: 'jupyterhub-data8:latest'
+    restart: always
+    container_name: jupyterhub
+    command: jupyterhub
+    ports:
+      - 8000:8000
+    volumes:
+      - /home/hacker/.jupyterhub/config:/srv/jupyterhub
+      - /home/hacker/.jupyterhub/data:/root/jupyter notebook
+      # - /var/run/docker.sock:/var/run/docker.sock:rw
+      - /home/hacker/.jupyterhub/log:/var/log/
+      #- /home/leojiang/jupyterhub/cert/server.crt:/server.crt:rw
+      #- /home/leojiang/jupyterhub/cert/server.key:/server.key:rw
