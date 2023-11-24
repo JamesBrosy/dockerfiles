@@ -10,3 +10,4 @@
 - [trpl-zh-cn](trpl-zh-cn): 《Rust编程语言》
 - [data8-textbook](data8-textbook): UCB data8 textbook
 - [OI WIKI](oi-wiki): OI-wiki
+- [CTF WIKI](ctf-wiki): CTF-WIKI
