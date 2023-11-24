@@ -9,3 +9,4 @@
 - [pbr-book-website](pbr-book-website): 《基于物理的渲染，从理论到实现》
 - [trpl-zh-cn](trpl-zh-cn): 《Rust编程语言》
 - [data8-textbook](data8-textbook): UCB data8 textbook
+- [OI WIKI](oi-wiki): OI-wiki
